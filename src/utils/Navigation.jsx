@@ -11,6 +11,7 @@ export function Navigation({ user }) {
           <li><Link to="/analytics">Analytics</Link></li>
           <li><Link to="/admin">Admin</Link></li>
           <li><Link to="/contacts">Contacts</Link></li>
+          <li><Link to="/minudevs">Minu Devs</Link></li>
         </ul>
       </nav>
     );

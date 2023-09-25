@@ -8,6 +8,8 @@ import { Admin }                                                             fro
 import { Navigation }                                                        from './utils/Navigation';
 import { ProtectedRoute }                                                    from './components/ProtectedRoute';
 import { Contact }                                                           from './pages/Contact';
+import MinuDevApp from './pages/MinuDev';
+import { CatsHome } from './pages/MinuDev/Test/JuniorsAndTrainees/Cats/pages/CatsHome';
 
 function App() {
 
@@ -58,6 +60,8 @@ function App() {
             </ProtectedRoute>          
           } />
           <Route path="/contacts" element={<Contact />} />
+          <Route path="/minudevs" element={<MinuDevApp />} />
+          <Route path="/minudevs/catshome" element={<CatsHome />} />
         </Routes>
       </BrowserRouter>
     </>
