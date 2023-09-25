@@ -7,7 +7,7 @@ import {
     getAgeCount,
     getNamesOver30InReverseOrder,
     getAgeCountInOrder,
-  } from "./App"; // import the functions to be tested
+  } from "../../../src/pages/Contact/index"; // import the functions to be tested
   const mockData = [
     { id: 1, name: "John", age: 30 },
     { id: 2, name: "Jane", age: 25 },
