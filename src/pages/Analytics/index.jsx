@@ -1,0 +1,1 @@
+export const Analytics = () => <h2>Analytics Page (Private & Permission: 'analize')</h2>;

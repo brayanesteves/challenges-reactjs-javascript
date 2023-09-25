@@ -1,0 +1,1 @@
+export const Admin = () => <h2>(Private & Permission: 'admin')</h2>;
