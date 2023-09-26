@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import                              './assets/cats-styles.css'
 
 const CAT_ENDPOINT_RANDOM_FACT = 'https://catfact.ninja/fact';
 const CAT_PREFIX_IMAGE_URL     = 'https://cataas.com/';
@@ -35,8 +36,10 @@ export const CatsHome = () => {
     return (
         <main>
             <h2>Cats Home Page</h2>
-            <p>{fact && <p>{fact}</p>}</p>
-            {imageUrl && <img src={`${CAT_PREFIX_IMAGE_URL}${imageUrl}`} alt={`Image extracted using the first trgee words for ${fact}`} />}
+            <section>                
+                <p>{fact && <p>{fact}</p>}</p>
+                {imageUrl && <img src={`${CAT_PREFIX_IMAGE_URL}${imageUrl}`} alt={`Image extracted using the first trgee words for ${fact}`} />}
+            </section>
         </main>
     );
 };
