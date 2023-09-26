@@ -12,6 +12,7 @@ import MinuDevApp                                                            fro
 import { CatsHome }                                                          from './pages/MinuDev/Test/JuniorsAndTrainees/Cats/pages/CatsHome';
 import JuanJoseOrtizApp                                                      from './pages/JuanJoseOrtiz';
 import RendererList                                                          from './pages/JuanJoseOrtiz/RendererList';
+import RedererListAPIUserJSONPlaceholder                                     from './pages/JuanJoseOrtiz/RedererListAPI_User_JSONPlaceholder';
 
 function App() {
 
@@ -66,6 +67,7 @@ function App() {
           <Route path="/minudevs/catshome" element={<CatsHome />} />
           <Route path="/juanjoseortiz" element={<JuanJoseOrtizApp />} />
           <Route path="/juanjoseortiz/rendererlist" element={<RendererList />} />
+          <Route path="/juanjoseortiz/renderer-list-user-jsonplaceholder" element={<RedererListAPIUserJSONPlaceholder />} />          
         </Routes>
       </BrowserRouter>
     </>

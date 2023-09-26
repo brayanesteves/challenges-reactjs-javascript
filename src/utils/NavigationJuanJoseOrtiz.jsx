@@ -6,6 +6,7 @@ export function NavigationJuanJoseOrtiz({ user }) {
       <nav>
         <ul>
           <li><Link to="/juanjoseortiz/rendererlist">Renderer List</Link></li>
+          <li><Link to="/juanjoseortiz/renderer-list-user-jsonplaceholder">Renderer List [User] - JSON Placeholder (API)</Link></li>
         </ul>
       </nav>
     );
