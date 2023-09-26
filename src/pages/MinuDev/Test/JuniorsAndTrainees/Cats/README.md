@@ -9,4 +9,4 @@ Retrieves a random cat fact and displays an image of a cat with the first word '
 
 [x] 1) Retrieves a random cat fact from the first API.
 [x] 2) Recover the first of the fact.
-[] 3) Show a picture of a cat with the first word.
+[x] 3) Show a picture of a cat with the first word.
