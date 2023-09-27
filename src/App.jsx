@@ -13,7 +13,8 @@ import { CatsHome }                                                          fro
 import JuanJoseOrtizApp                                                      from './pages/JuanJoseOrtiz';
 import RendererList                                                          from './pages/JuanJoseOrtiz/RendererList';
 import RedererListAPIUserJSONPlaceholder                                     from './pages/JuanJoseOrtiz/RedererListAPI_User_JSONPlaceholder';
-import FormRegister from './pages/JuanJoseOrtiz/FormRegister';
+import FormRegister                                                          from './pages/JuanJoseOrtiz/FormRegister';
+import OptimizeTheComponent                                                  from './pages/JuanJoseOrtiz/OptimizeTheComponent';
 
 function App() {
 
@@ -69,7 +70,8 @@ function App() {
           <Route path="/juanjoseortiz" element={<JuanJoseOrtizApp />} />
           <Route path="/juanjoseortiz/rendererlist" element={<RendererList />} />
           <Route path="/juanjoseortiz/renderer-list-user-jsonplaceholder" element={<RedererListAPIUserJSONPlaceholder />} />
-          <Route path="/juanjoseortiz/form-register" element={<FormRegister />} />                   
+          <Route path="/juanjoseortiz/form-register" element={<FormRegister />} />
+          <Route path="/juanjoseortiz/optimize-the-component" element={<OptimizeTheComponent />} /> 
         </Routes>
       </BrowserRouter>
     </>
