@@ -13,6 +13,7 @@ import { CatsHome }                                                          fro
 import JuanJoseOrtizApp                                                      from './pages/JuanJoseOrtiz';
 import RendererList                                                          from './pages/JuanJoseOrtiz/RendererList';
 import RedererListAPIUserJSONPlaceholder                                     from './pages/JuanJoseOrtiz/RedererListAPI_User_JSONPlaceholder';
+import FormRegister from './pages/JuanJoseOrtiz/FormRegister';
 
 function App() {
 
@@ -67,7 +68,8 @@ function App() {
           <Route path="/minudevs/catshome" element={<CatsHome />} />
           <Route path="/juanjoseortiz" element={<JuanJoseOrtizApp />} />
           <Route path="/juanjoseortiz/rendererlist" element={<RendererList />} />
-          <Route path="/juanjoseortiz/renderer-list-user-jsonplaceholder" element={<RedererListAPIUserJSONPlaceholder />} />          
+          <Route path="/juanjoseortiz/renderer-list-user-jsonplaceholder" element={<RedererListAPIUserJSONPlaceholder />} />
+          <Route path="/juanjoseortiz/form-register" element={<FormRegister />} />                   
         </Routes>
       </BrowserRouter>
     </>
